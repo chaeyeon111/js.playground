@@ -1,0 +1,20 @@
+<!--BMI를 계산하는 프로그램을 작성해 봅시다.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI calculator</title>
+
+</head>
+<body>
+<script>
+    var s1 = prompt("Enter your weight");
+    var s2 = prompt("Enter your height");
+    var height = Number(s2) / 100;
+    var weight = Number(s1);
+    console.log(weight / [height * height]);
+    var bmi = weight / (height * height);
+    document.write("BMI는 "  + bmi +"입니다.");
+</script>
+</body>
+</html>

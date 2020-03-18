@@ -1,0 +1,29 @@
+<!--finding decimal-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var n = Number(prompt("2 이상의 정수를 입력해 주세요."));
+    var isPrime = true;
+    for (var i = 2; i < n; i++){
+        if (n % i ===0){
+            isPrime = false;
+            break;
+        }
+    }
+
+    if (isPrime){
+        document.write(n + "은 소수입니다.")
+
+    } else {
+        document.write(n + "은 소수가 아닙니다.")
+    };
+
+</script>
+</body>
+</html>

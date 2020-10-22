@@ -4,6 +4,8 @@
 
 ## Front-end Developer 요구사항
 
+링크 : https://velog.io/@livelikemovies/react-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%B7%A8%EC%97%85-%EC%A7%80%EC%9B%90-%EC%A4%80%EB%B9%840
+
 * JavaScript, TypeScript
 
     1. Js 및 Ts의 버전의 바벨의 역할과 Ts와의 연관성, 트랜스 컴파일러 및 번들링에 대한 지식이 있으신 분.
